@@ -33,9 +33,9 @@ $ echo -n "見本 #01" | ./atwall.py -W 320 -H 180 -B '#35214c' -F '#86a165' --t
 $ echo -n "見本 #02" | ./atwall.py -W 320 -H 180 -B '#803621' -F '#bbbbbb' --text-size 72 --stripe-band-width 0.4 img/example-02.png
 ```
 
-![EXAMPLE-01](img/example-00b.png)
-![EXAMPLE-01](img/example-01b.png)
-![EXAMPLE-02](img/example-02b.png)
+![EXAMPLE-01](img/example-00.png)
+![EXAMPLE-01](img/example-01.png)
+![EXAMPLE-02](img/example-02.png)
 
 See help for more details.
 
