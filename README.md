@@ -11,10 +11,10 @@
 
 ## Prerequisites
 
-- [Python](https://www.python.org/)
+- [Python](https://www.python.org/) (>=3.5)
 - [ImageMagick](https://imagemagick.org/)
 - [Wand](https://github.com/emcconville/wand)
-- [Noto CJK](https://github.com/googlefonts/noto-cjk)
+- [Noto CJK](https://github.com/googlefonts/noto-cjk) (Noto Serif CJK Black)
 
 ## Getting started
 
