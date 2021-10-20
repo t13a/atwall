@@ -14,7 +14,7 @@
 - [Python](https://www.python.org/)
 - [ImageMagick](https://imagemagick.org/)
 - [Wand](https://github.com/emcconville/wand)
-- [Noto Serif Japanese](https://fonts.google.com/noto/specimen/Noto+Serif+JP)
+- [Noto CJK](https://github.com/googlefonts/noto-cjk)
 
 ## Getting started
 
@@ -30,7 +30,7 @@ Tweak the size, color, font, and stripes.
 
 ```bash
 $ echo -n "EXAMPLE\n#00" | ./atwall.py -W 240 -H 240 -B '#af8346' -F '#29241d' --text-font 'Noto-Sans-Thin' --text-size 96 --text-scale-x 0.5 --stripe-height 0 img/example-00.png
-$ echo -n "見本  #01" | ./atwall.py -W 240 -H 240 -B '#35214c' -F '#86a165' --text-size 96 --text-scale-x 0.5 img/example-01.png
+$ echo -n "例示 #01" | ./atwall.py -W 240 -H 240 -B '#35214c' -F '#86a165' --text-size 96 --text-scale-x 0.5 img/example-01.png
 $ echo -n "Beispiel\n#02" | ./atwall.py -W 240 -H 240 -B '#803621' -F '#bbbbbb' --text-font 'Noto-Serif-Black' --text-size 96 --text-scale-x 0.5 --text-scale-y 0.35 --stripe-band-width 0.4 img/example-02.png
 ```
 
